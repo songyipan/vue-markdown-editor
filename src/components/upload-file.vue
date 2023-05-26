@@ -33,7 +33,7 @@ export default {
         this.handleUpload = (e) => {
           resolve(e);
 
-          // 解决上传同一文件不触发change事件的问题
+          // Resolve the issue of uploading the same file without triggering a change event
           this.key++;
         };
 
